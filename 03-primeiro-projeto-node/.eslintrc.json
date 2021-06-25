@@ -24,17 +24,15 @@
     ],
     "rules": {
       "prettier/prettier": "error",
-      "import/extensions": [
+      "import/extensions":[
         "error",
         "ignorePackages",
-        {
-          "ts": "never"
-        }
+        {"ts":"never"}
       ]
     },
     "settings": {
       "import/resolver":{
-        "typescript": {}
+        "typescript":{}
       }
     }
 }
